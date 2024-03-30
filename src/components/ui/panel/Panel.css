@@ -1,0 +1,37 @@
+
+.panel {
+  --panel-color: #000;
+  --panel-padding: 10px;
+  --panel-radius: 5px;
+  border-radius: var(--panel-radius);
+  border: 1px solid var(--panel-color);
+}
+
+.panel.panel-danger {
+  --panel-color: rgb(220, 53, 69);
+}
+
+.panel.panel-primary {
+  --panel-color: rgb(53, 142, 220);
+}
+
+.panel .panel-header {
+  padding: var(--panel-padding);
+  border-bottom: 1px solid var(--panel-color);
+  background-color: #e9ecef;
+  color: var(--panel-color);
+  border-top-left-radius: var(--panel-radius);
+  border-top-right-radius: var(--panel-radius);
+}
+
+.panel .panel-body {
+  padding: var(--panel-padding);
+}
+
+.panel .panel-footer {
+  padding: var(--panel-padding);
+  border-top: 1px solid var(--panel-color);
+  background-color: #e9ecef;
+  border-bottom-left-radius: var(--panel-radius);
+  border-bottom-right-radius: var(--panel-radius);
+}

@@ -1,0 +1,12 @@
+
+.list-group {
+  border-radius: 5px;
+  background-color: #F1F1F1;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-group .list-group-item {
+  padding: 5px;
+  border-bottom: 1px solid #D1D1D1;
+}
